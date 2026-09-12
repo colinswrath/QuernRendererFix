@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="QuernRendererFix/QuernRendererFix.csproj" />
+  <Project Path="ZZCakeBuild/CakeBuild.csproj" />
+</Solution>
