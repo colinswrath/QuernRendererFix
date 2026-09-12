@@ -17,7 +17,7 @@ namespace QuernRendererFix
 
         public override void Dispose()
         {
-            harmony?.UnpatchAll("colinswrath.querntexturefix");
+            harmony?.UnpatchAll("colinswrath.quernrendererfix");
             harmony = null;
 
             base.Dispose();

@@ -1,14 +1,15 @@
 {
-    "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
-    "type": "Code",
-    "modid": "quernrendererfix",
-    "name": "QuernRendererFix",
-    "authors": [
-        "colinswrath"
-    ],
-    "description": "Fix issues with the QuernTopRenderer",
-    "version": "0.9.0",
-    "dependencies": {
-        "game": "1.22.6"
-    }
+  "$schema": "https://moddbcdn.vintagestory.at/schema/modinfo.latest.json",
+  "type": "Code",
+  "modid": "quernrendererfix",
+  "name": "QuernRendererFix",
+  "authors": [
+    "colinswrath"
+  ],
+  "side": "Client",
+  "description": "Fix issues with the QuernTopRenderer",
+  "version": "0.9.0",
+  "dependencies": {
+    "game": "1.22.6"
+  }
 }
