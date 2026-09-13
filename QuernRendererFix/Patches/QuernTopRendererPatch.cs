@@ -86,7 +86,7 @@ public static class QuernRendererFixPatch
     [HarmonyPostfix]
     private static void DisposePostfix(QuernTopRenderer __instance)
     {
-        if (!Meshes.Remove(__instance, out MultiTextureMeshRef mesh))
+        if (!Meshes.Remove(__instance, out MultiTextureMeshRef? mesh))
         {
             return;
         }
